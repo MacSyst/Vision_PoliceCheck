@@ -1,3 +1,5 @@
+SetConvarServerInfo('tags', 'Vision-Scripts')
+
 RegisterServerEvent('vision-police:sendFunk')
 AddEventHandler('vision-police:sendFunk', function(coords)
     local _source = source
